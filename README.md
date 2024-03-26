@@ -43,7 +43,5 @@
 ## HTTP Server
 
 - To create http server we use 'http' module which is preinstalled in node
-- after importing is https we create a server using 'const serverName = createServer((req,res)=>{
-    //Code
-    })'
--after this we defined on which port our server run using - 'serverName.listen()'
+- after importing is https we create a server using 'const serverName = createServer((req,res)=>{//Code})'
+- after this we defined on which port our server run using - 'serverName.listen()'

@@ -7,9 +7,19 @@ const http = require('http');
 const fs = require('fs');
 
 const server = http.createServer((req,res)=>{
-    const log =`${Date.now()} : New request Recieved\n`;
+    const log =`${Date.now()} : ${req.url} : New request Recieved\n`;
     fs.appendFile("log.txt",log,(err,data)=>{
-        res.end("hello from server");
+        switch(req.url){
+            case "/":
+                res.end("Home Page");
+                break;
+            case "/about":
+                res.end("About Page, my name is shubham");
+                break;
+            default:
+                res.end("404 not found");
+        }
+        
     });
 });
 

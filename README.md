@@ -39,3 +39,11 @@
 
 ## Node Architecture
 ![node-Architecture](https://imgs.search.brave.com/paWc80NTimjiDkYVL8WlEB8DZyM4-q39vGt9YNsTo-I/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c2ltcGxpbGVhcm4u/Y29tL2ljZTkvZnJl/ZV9yZXNvdXJjZXNf/YXJ0aWNsZV90aHVt/Yi9ub2RlLWpzLWFy/Y2hpLkpQRw)
+
+## HTTP Server
+
+- To create http server we use 'http' module which is preinstalled in node
+- after importing is https we create a server using 'const serverName = createServer((req,res)=>{
+
+})'
+-after this we defined on which port our server run using - 'serverName.listen()'

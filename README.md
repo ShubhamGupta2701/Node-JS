@@ -35,4 +35,7 @@
     - fs.writeFileSync(fileName,content) - used to write or create a file in sync manner
     - fs.cpFile(srcFile,newFile) - used to copy file
     - fs.appendFile(srcFile,dataToAppend) - used to append some data to existing file
-    - fs.unlinkSync(fileName) - used to delete file
+    - fs.unlinkSync(fileName) - used to delete file 
+
+## Node Architecture
+![node-Architecture](https://imgs.search.brave.com/paWc80NTimjiDkYVL8WlEB8DZyM4-q39vGt9YNsTo-I/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c2ltcGxpbGVhcm4u/Y29tL2ljZTkvZnJl/ZV9yZXNvdXJjZXNf/YXJ0aWNsZV90aHVt/Yi9ub2RlLWpzLWFy/Y2hpLkpQRw)

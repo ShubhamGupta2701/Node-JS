@@ -45,3 +45,10 @@
 - To create http server we use 'http' module which is preinstalled in node
 - after importing is https we create a server using 'const serverName = createServer((req,res)=>{//Code})'
 - after this we defined on which port our server run using - 'serverName.listen()'
+
+## URL Module
+
+- This modlue is maily used to perform operations on URL 
+- It help us to use query parameters
+- const url = require('url'); // this is how we can import url module
+- const myURL = url.parse(res.url,true) // this line parse url as well as query parameters

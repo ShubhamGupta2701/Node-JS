@@ -55,8 +55,8 @@
 
 ## HTTP Methods 
 
-- GET |To read the data from server|
-- POST |To Add Data in server|
-- PUT |To upload some type of data in server |
-- PATCH |To update some exsiting data in server |
-- DELETE |To delete Data in server|
+- GET `To read the data from server`
+- POST `To Add Data in server`
+- PUT `To upload some type of data in server`
+- PATCH `To update some exsiting data in server`
+- DELETE `To delete Data in server`

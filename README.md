@@ -60,3 +60,5 @@
 - PUT `To upload some type of data in server`
 - PATCH `To update some exsiting data in server`
 - DELETE `To delete Data in server`
+
+`We have to use multiple if else if have all the types API for same route and this is hectic that is why we use Express JS framework`

@@ -52,3 +52,11 @@
 - It help us to use query parameters
 - const url = require('url'); // this is how we can import url module
 - const myURL = url.parse(res.url,true) // this line parse url as well as query parameters
+
+## HTTP Methods 
+
+- GET |To read the data from server|
+- POST |To Add Data in server|
+- PUT |To upload some type of data in server |
+- PATCH |To update some exsiting data in server |
+- DELETE |To delete Data in server|
